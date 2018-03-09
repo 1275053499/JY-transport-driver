@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="221" id="KGk-i7-Jjw" customClass="GetOrderHomeCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="104.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_dingweidian" translatesAutoresizingMaskIntoConstraints="NO" id="GFA-HL-7hP">
+                        <rect key="frame" x="10" y="16" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="N14-Hz-Zuo"/>
+                            <constraint firstAttribute="width" constant="15" id="rFC-pU-NjX"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_mudidi" translatesAutoresizingMaskIntoConstraints="NO" id="5Br-sN-v58">
+                        <rect key="frame" x="10" y="68" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="IuU-PV-UwF"/>
+                            <constraint firstAttribute="height" constant="15" id="iFJ-W8-pWt"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0g8-yH-dGR" userLabel="originView">
+                        <rect key="frame" x="35" y="9" width="191" height="39"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市宝安区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0D-Iy-MuQ">
+                                <rect key="frame" x="0.0" y="1" width="191" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="CfQ-gQ-kyn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市宝安区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpH-Ba-Bnl">
+                                <rect key="frame" x="0.0" y="20" width="191" height="20"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vpH-Ba-Bnl" firstAttribute="top" secondItem="h0D-Iy-MuQ" secondAttribute="bottom" constant="1" id="P3d-0v-sGm"/>
+                            <constraint firstItem="vpH-Ba-Bnl" firstAttribute="leading" secondItem="0g8-yH-dGR" secondAttribute="leading" id="P4d-4c-ubA"/>
+                            <constraint firstAttribute="trailing" secondItem="h0D-Iy-MuQ" secondAttribute="trailing" id="PSk-dS-YLK"/>
+                            <constraint firstItem="h0D-Iy-MuQ" firstAttribute="leading" secondItem="0g8-yH-dGR" secondAttribute="leading" id="Pey-qu-Ow3"/>
+                            <constraint firstAttribute="height" constant="39" id="Y3h-xz-ljd"/>
+                            <constraint firstItem="h0D-Iy-MuQ" firstAttribute="top" secondItem="0g8-yH-dGR" secondAttribute="top" constant="1" id="esr-Ku-lwb"/>
+                            <constraint firstAttribute="trailing" secondItem="vpH-Ba-Bnl" secondAttribute="trailing" id="o5D-If-VVn"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WC2-wm-cE8">
+                        <rect key="frame" x="232" y="9" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="G4H-Ms-7yT"/>
+                            <constraint firstAttribute="width" constant="80" id="a5f-1Y-bYb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                        <state key="normal" title="抢单">
+                            <color key="titleColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wkW-1O-ab3">
+                        <rect key="frame" x="17" y="33" width="1" height="33"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="dCy-Tb-Mqt"/>
+                            <constraint firstAttribute="width" constant="1" id="sMN-jW-puf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ArF-gO-qjh">
+                        <rect key="frame" x="0.0" y="102" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="2lJ-rZ-E2h"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmp-jC-OQ0">
+                        <rect key="frame" x="0.0" y="103" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="zta-zF-AOb"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcQ-eb-i5P" userLabel="destinationView">
+                        <rect key="frame" x="35" y="49" width="191" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市宝安区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMa-O7-mo4">
+                                <rect key="frame" x="0.0" y="8" width="191" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="WQC-Za-5Am"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市宝安区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Lc-ua-AqC">
+                                <rect key="frame" x="0.0" y="27" width="191" height="20"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Lc-ua-AqC" secondAttribute="trailing" id="0uy-Iz-Kdo"/>
+                            <constraint firstItem="UMa-O7-mo4" firstAttribute="leading" secondItem="gcQ-eb-i5P" secondAttribute="leading" id="N9U-Qg-BPL"/>
+                            <constraint firstItem="8Lc-ua-AqC" firstAttribute="leading" secondItem="gcQ-eb-i5P" secondAttribute="leading" id="Tj5-Zl-OpN"/>
+                            <constraint firstAttribute="trailing" secondItem="UMa-O7-mo4" secondAttribute="trailing" id="VIQ-df-anm"/>
+                            <constraint firstItem="8Lc-ua-AqC" firstAttribute="top" secondItem="UMa-O7-mo4" secondAttribute="bottom" constant="1" id="bex-KY-j2B"/>
+                            <constraint firstAttribute="height" constant="40" id="pyx-Kb-IFb"/>
+                            <constraint firstItem="UMa-O7-mo4" firstAttribute="top" secondItem="gcQ-eb-i5P" secondAttribute="top" constant="8" id="zqT-0F-mdh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GFA-HL-7hP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="2OI-Rv-ogq"/>
+                    <constraint firstItem="gmp-jC-OQ0" firstAttribute="top" secondItem="ArF-gO-qjh" secondAttribute="bottom" id="2Sz-Ia-iot"/>
+                    <constraint firstItem="WC2-wm-cE8" firstAttribute="leading" secondItem="gcQ-eb-i5P" secondAttribute="trailing" constant="6" id="3LO-Gc-wtW"/>
+                    <constraint firstItem="0g8-yH-dGR" firstAttribute="leading" secondItem="GFA-HL-7hP" secondAttribute="trailing" constant="10" id="3lL-aj-jpi"/>
+                    <constraint firstItem="0g8-yH-dGR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="BBl-bK-NIL"/>
+                    <constraint firstItem="GFA-HL-7hP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="GCG-lL-yYz"/>
+                    <constraint firstItem="ArF-gO-qjh" firstAttribute="top" secondItem="gcQ-eb-i5P" secondAttribute="bottom" constant="13" id="Jzp-ZQ-j9Z"/>
+                    <constraint firstItem="ArF-gO-qjh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KLJ-fb-fX0"/>
+                    <constraint firstItem="5Br-sN-v58" firstAttribute="top" secondItem="wkW-1O-ab3" secondAttribute="bottom" constant="2" id="KrU-tW-NAp"/>
+                    <constraint firstAttribute="trailing" secondItem="ArF-gO-qjh" secondAttribute="trailing" id="MYR-rf-QtL"/>
+                    <constraint firstItem="gmp-jC-OQ0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="N5A-np-2w1"/>
+                    <constraint firstItem="WC2-wm-cE8" firstAttribute="leading" secondItem="0g8-yH-dGR" secondAttribute="trailing" constant="6" id="PBb-jB-hQS"/>
+                    <constraint firstAttribute="trailing" secondItem="WC2-wm-cE8" secondAttribute="trailing" constant="8" id="SF7-5m-E5P"/>
+                    <constraint firstAttribute="bottom" secondItem="gmp-jC-OQ0" secondAttribute="bottom" constant="0.5" id="TMC-6M-xO4"/>
+                    <constraint firstItem="5Br-sN-v58" firstAttribute="centerX" secondItem="GFA-HL-7hP" secondAttribute="centerX" id="Vlt-Uh-F2L"/>
+                    <constraint firstAttribute="trailing" secondItem="gmp-jC-OQ0" secondAttribute="trailing" id="Yv3-sj-jnL"/>
+                    <constraint firstItem="wkW-1O-ab3" firstAttribute="top" secondItem="GFA-HL-7hP" secondAttribute="bottom" constant="2" id="fOa-4J-R46"/>
+                    <constraint firstItem="wkW-1O-ab3" firstAttribute="centerX" secondItem="GFA-HL-7hP" secondAttribute="centerX" id="iV3-Hw-E0R"/>
+                    <constraint firstItem="gcQ-eb-i5P" firstAttribute="top" secondItem="0g8-yH-dGR" secondAttribute="bottom" constant="1" id="mPs-AG-nZv"/>
+                    <constraint firstItem="WC2-wm-cE8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="n4b-ju-e0A"/>
+                    <constraint firstItem="gcQ-eb-i5P" firstAttribute="leading" secondItem="5Br-sN-v58" secondAttribute="trailing" constant="10" id="n5w-z8-yh1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="RobOrederButton" destination="WC2-wm-cE8" id="f6Z-PP-Ufv"/>
+                <outlet property="arrivePlace" destination="UMa-O7-mo4" id="SO6-dH-44p"/>
+                <outlet property="arrivePlaceAddress" destination="8Lc-ua-AqC" id="3nH-4u-gLr"/>
+                <outlet property="departPlace" destination="h0D-Iy-MuQ" id="dyp-1R-Y1a"/>
+                <outlet property="departPlaceAddress" destination="vpH-Ba-Bnl" id="Xlc-uE-XVa"/>
+                <outlet property="lineVIew" destination="ArF-gO-qjh" id="11A-V8-Kti"/>
+                <outlet property="serviceHeightConstraint" destination="zta-zF-AOb" id="jsO-wX-huD"/>
+                <outlet property="serviceSuperView" destination="gmp-jC-OQ0" id="HOE-Wq-0K2"/>
+            </connections>
+            <point key="canvasLocation" x="14" y="23"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_dingweidian" width="15" height="15"/>
+        <image name="icon_mudidi" width="15" height="15"/>
+    </resources>
+</document>

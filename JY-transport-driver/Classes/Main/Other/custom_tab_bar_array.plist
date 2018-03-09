@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>K_TAB_BAR_ITEM_DEFAULT_IMAGE</key>
+		<string>home</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_HEIGHTLIGHT_IMAGE</key>
+		<string>home_blue</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_TEXT</key>
+		<string>首页</string>
+	</dict>
+	<dict>
+		<key>K_TAB_BAR_ITEM_DEFAULT_IMAGE</key>
+		<string>drafts</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_HEIGHTLIGHT_IMAGE</key>
+		<string>drafts_blue</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_TEXT</key>
+		<string>订单</string>
+	</dict>
+	<dict>
+		<key>K_TAB_BAR_ITEM_DEFAULT_IMAGE</key>
+		<string>data</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_HEIGHTLIGHT_IMAGE</key>
+		<string>data_blue</string>
+		<key>K_TAB_BAR_ITEM_DEFAULT_TEXT</key>
+		<string>我的</string>
+	</dict>
+</array>
+</plist>

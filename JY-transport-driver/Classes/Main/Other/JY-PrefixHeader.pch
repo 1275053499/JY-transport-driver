@@ -1,0 +1,62 @@
+//
+//  JY-PrefixHeader.pch
+//  JY-transport
+//
+//  Created by 永和丽科技 on 17/4/20.
+//  Copyright © 2017年 永和丽科技. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "GlobalFile.h"
+#import "NetWorkHelper.h"
+#import "Masonry.h"
+#import "FMButton.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+JDragon.h"
+#import "UIBarButtonItem+WZ.h"
+#import "UIImage+WZ.h"
+#import "UIColor+HexStringColor.h"
+#import "MJExtension.h"
+#import "BaseViewController.h"
+#import "MJRefresh.h"
+#import "JYAccountTool.h"
+#import "NameConstant.h"
+#import "UIView+Extension.h"
+#import "NSData+data.h"
+#import "NSDate+Date.h"
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#endif
+
+
+//#define BgColorOfUIView  [UIColor colorWithHexString:@"#eaeff3"]
+#define BgColorOfUIView  [UIColor colorWithHexString:@"#f7f7f7"]
+
+#define DEFAULTS [NSUserDefaults standardUserDefaults]
+#define IOS8 (［[UIDevice currentDevice].systemVersion doubleValue] <= 9.0]
+
+#define  userPhone   [JYAccountTool userName]
+#define  userPhone_Log   [JYAccountTool userNameForLogistics]
+
+
+
+#ifdef IOS_9
+
+#define Default_APP_Font_Reg @"PingFangSC-Regular"
+#define Default_APP_Font @"PingFang-SC-Medium"
+
+#else
+
+#define Default_APP_Font_Reg @"HelveticaNeue"
+#define Default_APP_Font @"HelveticaNeue-Medium"
+
+#endif
+
+
+
+

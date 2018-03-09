@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="289" id="KGk-i7-Jjw" customClass="JYHomeGrabTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="269"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="268.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DbX-rA-wOb">
+                        <rect key="frame" x="330" y="0.0" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="h7b-va-Nh2"/>
+                            <constraint firstAttribute="height" constant="40" id="w2K-HQ-nbH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-01-31  15:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFD-GU-SDh">
+                        <rect key="frame" x="28" y="19" width="128" height="21"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ9-cW-ZZ7">
+                        <rect key="frame" x="28" y="141" width="50" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="BgV-e3-0UR"/>
+                            <constraint firstAttribute="height" constant="16" id="bbj-hv-8X5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsh-Qs-XtK">
+                        <rect key="frame" x="206" y="141" width="51" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="EiQ-29-LYR"/>
+                            <constraint firstAttribute="width" constant="51" id="bWD-jN-PQE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="体积：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0l-hU-XZQ">
+                        <rect key="frame" x="206" y="174" width="51" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="S6q-Nx-qdq"/>
+                            <constraint firstAttribute="width" constant="51" id="qHz-ST-AKL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="包装：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzK-Op-zeK">
+                        <rect key="frame" x="206" y="207" width="51" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="CVi-Pv-SI8"/>
+                            <constraint firstAttribute="width" constant="51" id="Vlj-ZB-ije"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="重量：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpR-Ng-BR6">
+                        <rect key="frame" x="28" y="174" width="50" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Dg6-Q5-Npk"/>
+                            <constraint firstAttribute="width" constant="50" id="aLG-yI-pfj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="735" text="货物价值：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJg-he-Q2p">
+                        <rect key="frame" x="28" y="205" width="80" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="7tu-Mc-MOC"/>
+                            <constraint firstAttribute="height" constant="16" id="V39-X7-vf4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-Ay-JbK">
+                        <rect key="frame" x="24" y="125" width="322" height="2"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:KmL-RA-0Nf:image" translatesAutoresizingMaskIntoConstraints="NO" id="KmL-RA-0Nf">
+                        <rect key="frame" x="28" y="48" width="19" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="19" id="R9V-Jn-4iP"/>
+                            <constraint firstAttribute="height" constant="25" id="V54-Md-oid"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:dd0-7G-hBC:image" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-7G-hBC">
+                        <rect key="frame" x="28" y="85" width="19" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="19" id="KVS-QI-jE4"/>
+                            <constraint firstAttribute="height" constant="25" id="Wrl-c5-BAs"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfd-2o-jf2">
+                        <rect key="frame" x="247" y="30" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="5di-pI-zco"/>
+                            <constraint firstAttribute="width" constant="80" id="9dT-HW-x9a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                        <state key="normal" title="抢单">
+                            <color key="titleColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="电脑桌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZE-Wd-1pR">
+                        <rect key="frame" x="78" y="139" width="76" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="257" verticalCompressionResistancePriority="751" text="60公斤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9z-ON-8KC">
+                        <rect key="frame" x="78" y="172" width="76" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="1000元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTo-vd-HBB">
+                        <rect key="frame" x="108" y="202" width="56" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZF-D5-UyN">
+                        <rect key="frame" x="257" y="139" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Q7e-p5-LLo"/>
+                            <constraint firstAttribute="width" constant="85" id="kW4-zl-NSz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100立方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nt-k5-JJi">
+                        <rect key="frame" x="257" y="172" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="p4W-aV-1sZ"/>
+                            <constraint firstAttribute="height" constant="21" id="sS2-Oq-xp1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="木箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBJ-C0-JsQ">
+                        <rect key="frame" x="257" y="205" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="E3A-Cs-pdO"/>
+                            <constraint firstAttribute="width" constant="85" id="zgf-CP-bZ2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b0l-EF-NDj">
+                        <rect key="frame" x="0.0" y="262.5" width="370" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="qxJ-Gl-onl"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市宝安区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOY-w8-1dY">
+                        <rect key="frame" x="60" y="87" width="185" height="24"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市龙华新区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFy-rR-Mh5">
+                        <rect key="frame" x="60" y="48" width="182" height="24"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="b0l-EF-NDj" secondAttribute="trailing" id="1fb-QO-5yT"/>
+                    <constraint firstItem="7Nt-k5-JJi" firstAttribute="leading" secondItem="d0l-hU-XZQ" secondAttribute="trailing" id="46v-ZJ-naj"/>
+                    <constraint firstItem="HOY-w8-1dY" firstAttribute="top" secondItem="CFy-rR-Mh5" secondAttribute="bottom" constant="15" id="5LL-mD-kJh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dfd-2o-jf2" secondAttribute="trailing" constant="27" id="8cF-pG-Qab"/>
+                    <constraint firstItem="dd0-7G-hBC" firstAttribute="top" secondItem="KmL-RA-0Nf" secondAttribute="bottom" constant="12" id="900-Cf-rl4"/>
+                    <constraint firstItem="hpR-Ng-BR6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="9q4-nM-hLm"/>
+                    <constraint firstItem="hZE-Wd-1pR" firstAttribute="trailing" secondItem="g9z-ON-8KC" secondAttribute="trailing" id="EEN-JS-oCF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="IZF-D5-UyN" secondAttribute="trailing" constant="12" id="EJk-6R-Gf9"/>
+                    <constraint firstItem="CFy-rR-Mh5" firstAttribute="leading" secondItem="KmL-RA-0Nf" secondAttribute="trailing" constant="13" id="Em3-ZN-CU0"/>
+                    <constraint firstItem="DbX-rA-wOb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FqF-a5-1bj"/>
+                    <constraint firstItem="YBJ-C0-JsQ" firstAttribute="leading" secondItem="MzK-Op-zeK" secondAttribute="trailing" id="G2A-vT-Ny7"/>
+                    <constraint firstItem="nsi-Ay-JbK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="HsK-A2-XVt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YBJ-C0-JsQ" secondAttribute="trailing" constant="12" id="Jyr-El-Blt"/>
+                    <constraint firstItem="YBJ-C0-JsQ" firstAttribute="top" secondItem="7Nt-k5-JJi" secondAttribute="bottom" constant="12" id="KxH-DZ-grN"/>
+                    <constraint firstAttribute="bottom" secondItem="b0l-EF-NDj" secondAttribute="bottom" constant="5" id="LVN-dF-qoC"/>
+                    <constraint firstItem="dd0-7G-hBC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="LzR-bx-Nol"/>
+                    <constraint firstItem="IZF-D5-UyN" firstAttribute="leading" secondItem="gsh-Qs-XtK" secondAttribute="trailing" id="MDq-Au-fKs"/>
+                    <constraint firstItem="gsh-Qs-XtK" firstAttribute="top" secondItem="nsi-Ay-JbK" secondAttribute="bottom" constant="14" id="N3Y-FI-4QV"/>
+                    <constraint firstItem="KmL-RA-0Nf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="NpD-d2-5yj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nsi-Ay-JbK" secondAttribute="trailing" constant="8" id="Ohi-xd-PR0"/>
+                    <constraint firstItem="HOY-w8-1dY" firstAttribute="leading" secondItem="dd0-7G-hBC" secondAttribute="trailing" constant="13" id="Pff-i7-hcP"/>
+                    <constraint firstItem="dfd-2o-jf2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="22" id="Q2N-wh-xvh"/>
+                    <constraint firstItem="eJg-he-Q2p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="Rak-qz-3rM"/>
+                    <constraint firstItem="nsi-Ay-JbK" firstAttribute="top" secondItem="dfd-2o-jf2" secondAttribute="bottom" constant="15" id="SAO-g0-dOc"/>
+                    <constraint firstItem="CFy-rR-Mh5" firstAttribute="top" secondItem="NFD-GU-SDh" secondAttribute="bottom" constant="8" id="Sfn-QI-bc3"/>
+                    <constraint firstItem="iZ9-cW-ZZ7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="T06-Dr-DKd"/>
+                    <constraint firstItem="iTo-vd-HBB" firstAttribute="leading" secondItem="eJg-he-Q2p" secondAttribute="trailing" id="TSw-Y1-cXw"/>
+                    <constraint firstItem="hZE-Wd-1pR" firstAttribute="leading" secondItem="iZ9-cW-ZZ7" secondAttribute="trailing" id="U9E-5m-DRU"/>
+                    <constraint firstItem="IZF-D5-UyN" firstAttribute="top" secondItem="nsi-Ay-JbK" secondAttribute="bottom" constant="12" id="W0U-yL-KAT"/>
+                    <constraint firstItem="d0l-hU-XZQ" firstAttribute="top" secondItem="gsh-Qs-XtK" secondAttribute="bottom" constant="17" id="WZN-My-zu5"/>
+                    <constraint firstItem="hZE-Wd-1pR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="139" id="aeB-fB-8WX"/>
+                    <constraint firstItem="g9z-ON-8KC" firstAttribute="top" secondItem="hZE-Wd-1pR" secondAttribute="bottom" constant="12" id="bib-PV-PCb"/>
+                    <constraint firstItem="dfd-2o-jf2" firstAttribute="leading" secondItem="HOY-w8-1dY" secondAttribute="trailing" constant="2" id="cPg-Ek-7KU"/>
+                    <constraint firstAttribute="trailing" secondItem="DbX-rA-wOb" secondAttribute="trailing" id="cQo-Qv-rOE"/>
+                    <constraint firstItem="hZE-Wd-1pR" firstAttribute="top" secondItem="nsi-Ay-JbK" secondAttribute="bottom" constant="12" id="dlA-3W-w0X"/>
+                    <constraint firstItem="b0l-EF-NDj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="esq-4M-bmD"/>
+                    <constraint firstItem="KmL-RA-0Nf" firstAttribute="top" secondItem="NFD-GU-SDh" secondAttribute="bottom" constant="8" id="gMd-Vc-t3G"/>
+                    <constraint firstItem="NFD-GU-SDh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="k7f-r7-vla"/>
+                    <constraint firstItem="iZ9-cW-ZZ7" firstAttribute="top" secondItem="nsi-Ay-JbK" secondAttribute="bottom" constant="14" id="kUz-vG-hI2"/>
+                    <constraint firstItem="eJg-he-Q2p" firstAttribute="top" secondItem="g9z-ON-8KC" secondAttribute="bottom" constant="12" id="ksZ-mz-kua"/>
+                    <constraint firstItem="MzK-Op-zeK" firstAttribute="top" secondItem="d0l-hU-XZQ" secondAttribute="bottom" constant="17" id="let-Mx-xw4"/>
+                    <constraint firstItem="7Nt-k5-JJi" firstAttribute="top" secondItem="IZF-D5-UyN" secondAttribute="bottom" constant="12" id="lxQ-Yj-fiC"/>
+                    <constraint firstItem="hpR-Ng-BR6" firstAttribute="top" secondItem="iZ9-cW-ZZ7" secondAttribute="bottom" constant="17" id="nM6-3u-D42"/>
+                    <constraint firstItem="NFD-GU-SDh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="qwk-7p-LPo"/>
+                    <constraint firstItem="gsh-Qs-XtK" firstAttribute="leading" secondItem="hZE-Wd-1pR" secondAttribute="trailing" constant="52" id="tGO-Pp-hfB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7Nt-k5-JJi" secondAttribute="trailing" constant="12" id="usz-Ig-Fzp"/>
+                    <constraint firstItem="iTo-vd-HBB" firstAttribute="top" secondItem="g9z-ON-8KC" secondAttribute="bottom" constant="9" id="vxZ-vZ-i7v"/>
+                    <constraint firstItem="dfd-2o-jf2" firstAttribute="leading" secondItem="CFy-rR-Mh5" secondAttribute="trailing" constant="5" id="wJD-WN-b2r"/>
+                    <constraint firstItem="g9z-ON-8KC" firstAttribute="leading" secondItem="hpR-Ng-BR6" secondAttribute="trailing" id="yaD-xo-Sgh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bigViewConstraint" destination="qxJ-Gl-onl" id="FEF-gt-h0o"/>
+                <outlet property="endImgView" destination="dd0-7G-hBC" id="nxR-Kq-i7G"/>
+                <outlet property="endLabel" destination="HOY-w8-1dY" id="uk7-mV-ufn"/>
+                <outlet property="graSingleBtn" destination="dfd-2o-jf2" id="j3T-Qg-ggW"/>
+                <outlet property="nameLabel" destination="hZE-Wd-1pR" id="My2-Sf-4s4"/>
+                <outlet property="numLabel" destination="IZF-D5-UyN" id="1NY-uO-5FJ"/>
+                <outlet property="packageLabel" destination="YBJ-C0-JsQ" id="H5m-AF-Rh1"/>
+                <outlet property="serviceTypeBigView" destination="b0l-EF-NDj" id="745-BN-SEi"/>
+                <outlet property="startLabel" destination="CFy-rR-Mh5" id="HpK-Up-qTb"/>
+                <outlet property="statrImgView" destination="KmL-RA-0Nf" id="fyc-e5-ljN"/>
+                <outlet property="timeLabel" destination="NFD-GU-SDh" id="RZc-x5-Uvz"/>
+                <outlet property="valueLabel" destination="iTo-vd-HBB" id="vZM-ON-pkw"/>
+                <outlet property="volumeLabel" destination="7Nt-k5-JJi" id="7am-IY-KUL"/>
+                <outlet property="weightLabel" destination="g9z-ON-8KC" id="RfH-gY-LI8"/>
+                <outlet property="zoneImgView" destination="DbX-rA-wOb" id="WI4-R9-rES"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="-67.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imageView:KmL-RA-0Nf:image" width="17" height="24">
+            <mutableData key="keyedArchiveRepresentation">
+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
+bE5MAAAAKAAABERlc0VTAAAAJgAABB50aFRIAAAAJAAABGx0clRSAAAAIgAABJBmaUZJAAAAKAAABLJo
+ckhSAAAAKAAABNpwbFBMAAAALAAABQJydVJVAAAAIgAABS5hckVHAAAAJgAABVBlblVTAAAAJgAABXYA
+VgFhAGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUAcgBlAGwAIABSAEcA
+QgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6AByAGkA
+YwBDHqUAdQAgAGgA7ABuAGgAIABSAEcAQgAgAEMAaAB1AG4AZwBQAGUAcgBmAGkAbAAgAFIARwBCACAA
+RwBlAG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAgAFIARwBCAFAA
+cgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABSAFYAQgDBAGwAdABhAGwA4QBuAG8AcwAgAFIA
+RwBCACAAcAByAG8AZgBpAGyQGnUoACAAUgBHAEIAIIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMAawAgAFIA
+RwBCAC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsBeQF6AXVBeQF
+2QXcACAAUgBHAEIAIAXbBdwF3AXZAFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA
+bwBQAHIAbwBmAGkAbAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUAbQBlAGkAbgBlAHMA
+IABSAEcAQgAtAFAAcgBvAGYAaQBsx3y8GAAgAFIARwBCACDVBLhc0wzHfGZukBoAIABSAEcAQgAgY8+P
+8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TChMKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/A8YDrwO7ACAA
+UgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBlAG4A
+IABSAEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4xDkgOJw5EDhsA
+RwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAA
+cgBvAGYAaQBpAGwAaQBHAGUAbgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwAVQBuAGkA
+dwBlAHIAcwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgREBDgE
+OwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIA
+aQBjACAAUgBHAEIAIABQAHIAbwBmAGkAbABldGV4dAAAAABDb3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMu
+LCBhbGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAAAAAAAAB0TQAAPe4A
+AAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1cnYAAAAAAAAAAQHNAABz
+ZjMyAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADAbNIlJicoWiRjbGFzc25hbWVY
+JGNsYXNzZXNfEBBOU0JpdG1hcEltYWdlUmVwoycpKlpOU0ltYWdlUmVwWE5TT2JqZWN00iUmLC1XTlNB
+cnJheaIsKtIlJi8wXk5TTXV0YWJsZUFycmF5oy8sKtMyMwo0NTZXTlNXaGl0ZVxOU0NvbG9yU3BhY2VE
+MCAwABADgAzSJSY4OVdOU0NvbG9yojgq0iUmOzxXTlNJbWFnZaI7Kl8QD05TS2V5ZWRBcmNoaXZlctE/
+QFRyb290gAEACAARABoAIwAtADIANwBGAEwAVwBeAGUAcgB5AIEAgwCFAIoAjACOAJcAnACnAKkAqwCt
+ALIAtQC3ALkAuwC9AMIA2QDbAN0P3w/kD+8P+BALEA8QGhAjECgQMBAzEDgQRxBLEFIQWhBnEGwQbhBw
+EHUQfRCAEIUQjRCQEKIQpRCqAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAEKw
+</mutableData>
+        </image>
+        <image name="imageView:dd0-7G-hBC:image" width="17" height="24">
+            <mutableData key="keyedArchiveRepresentation">
+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
+bE5MAAAAKAAABERlc0VTAAAAJgAABB50aFRIAAAAJAAABGx0clRSAAAAIgAABJBmaUZJAAAAKAAABLJo
+ckhSAAAAKAAABNpwbFBMAAAALAAABQJydVJVAAAAIgAABS5hckVHAAAAJgAABVBlblVTAAAAJgAABXYA
+VgFhAGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUAcgBlAGwAIABSAEcA
+QgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6AByAGkA
+YwBDHqUAdQAgAGgA7ABuAGgAIABSAEcAQgAgAEMAaAB1AG4AZwBQAGUAcgBmAGkAbAAgAFIARwBCACAA
+RwBlAG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAgAFIARwBCAFAA
+cgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABSAFYAQgDBAGwAdABhAGwA4QBuAG8AcwAgAFIA
+RwBCACAAcAByAG8AZgBpAGyQGnUoACAAUgBHAEIAIIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMAawAgAFIA
+RwBCAC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsBeQF6AXVBeQF
+2QXcACAAUgBHAEIAIAXbBdwF3AXZAFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA
+bwBQAHIAbwBmAGkAbAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUAbQBlAGkAbgBlAHMA
+IABSAEcAQgAtAFAAcgBvAGYAaQBsx3y8GAAgAFIARwBCACDVBLhc0wzHfGZukBoAIABSAEcAQgAgY8+P
+8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TChMKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/A8YDrwO7ACAA
+UgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBlAG4A
+IABSAEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4xDkgOJw5EDhsA
+RwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAA
+cgBvAGYAaQBpAGwAaQBHAGUAbgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwAVQBuAGkA
+dwBlAHIAcwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgREBDgE
+OwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIA
+aQBjACAAUgBHAEIAIABQAHIAbwBmAGkAbABldGV4dAAAAABDb3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMu
+LCBhbGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAAAAAAAAB0TQAAPe4A
+AAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1cnYAAAAAAAAAAQHNAABz
+ZjMyAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADAbNIlJicoWiRjbGFzc25hbWVY
+JGNsYXNzZXNfEBBOU0JpdG1hcEltYWdlUmVwoycpKlpOU0ltYWdlUmVwWE5TT2JqZWN00iUmLC1XTlNB
+cnJheaIsKtIlJi8wXk5TTXV0YWJsZUFycmF5oy8sKtMyMwo0NTZXTlNXaGl0ZVxOU0NvbG9yU3BhY2VE
+MCAwABADgAzSJSY4OVdOU0NvbG9yojgq0iUmOzxXTlNJbWFnZaI7Kl8QD05TS2V5ZWRBcmNoaXZlctE/
+QFRyb290gAEACAARABoAIwAtADIANwBGAEwAVwBeAGUAcgB5AIEAgwCFAIoAjACOAJcAnACnAKkAqwCt
+ALIAtQC3ALkAuwC9AMIA2QDbAN0P3w/kD+8P+BALEA8QGhAjECgQMBAzEDgQRxBLEFIQWhBnEGwQbhBw
+EHUQfRCAEIUQjRCQEKIQpRCqAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAEKw
+</mutableData>
+        </image>
+    </resources>
+</document>

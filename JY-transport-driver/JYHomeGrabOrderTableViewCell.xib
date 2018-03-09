@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="JYHomeGrabOrderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZJ-IP-5Go">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="96.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lansedian" translatesAutoresizingMaskIntoConstraints="NO" id="172-BB-azT">
+                                <rect key="frame" x="10" y="15" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="C4B-CM-sdr"/>
+                                    <constraint firstAttribute="width" constant="15" id="U30-6r-c3L"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGB-dN-8pb">
+                                <rect key="frame" x="17" y="33" width="1" height="31"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="JrE-cb-rbq"/>
+                                    <constraint firstAttribute="width" constant="1" id="V2L-Zy-zMk"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广东省 深圳市 龙华新区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fK-AH-h7a">
+                                <rect key="frame" x="43" y="12" width="171" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rKm-dA-8yA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广东省 深圳市 龙华新区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGS-tX-A3g">
+                                <rect key="frame" x="43" y="63.5" width="171" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="CmT-Bp-JJO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNR-nB-3Zu">
+                                <rect key="frame" x="230" y="8" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.066666666666666666" green="0.54117647058823526" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Jmc-bT-T5x"/>
+                                    <constraint firstAttribute="height" constant="80" id="gQ2-bH-s8X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="22"/>
+                                <state key="normal" title="估价"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="172-BB-azT" firstAttribute="top" secondItem="DZJ-IP-5Go" secondAttribute="top" constant="15" id="3vY-n2-cnB"/>
+                            <constraint firstItem="gGS-tX-A3g" firstAttribute="leading" secondItem="0fK-AH-h7a" secondAttribute="leading" id="7KW-t2-3Xh"/>
+                            <constraint firstItem="BNR-nB-3Zu" firstAttribute="centerY" secondItem="DZJ-IP-5Go" secondAttribute="centerY" id="DGw-Cd-EvN"/>
+                            <constraint firstItem="0fK-AH-h7a" firstAttribute="leading" secondItem="172-BB-azT" secondAttribute="trailing" constant="18" id="QBL-Tg-gLq"/>
+                            <constraint firstItem="sGB-dN-8pb" firstAttribute="centerX" secondItem="172-BB-azT" secondAttribute="centerX" id="RNm-72-0C5"/>
+                            <constraint firstItem="172-BB-azT" firstAttribute="leading" secondItem="DZJ-IP-5Go" secondAttribute="leading" constant="10" id="aTZ-hY-B6A"/>
+                            <constraint firstItem="sGB-dN-8pb" firstAttribute="top" secondItem="172-BB-azT" secondAttribute="bottom" constant="3" id="fao-Dg-gUP"/>
+                            <constraint firstItem="0fK-AH-h7a" firstAttribute="centerY" secondItem="172-BB-azT" secondAttribute="centerY" id="vY9-GL-wJg"/>
+                            <constraint firstAttribute="trailing" secondItem="BNR-nB-3Zu" secondAttribute="trailing" constant="10" id="x81-lv-fJY"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_hongsedian" translatesAutoresizingMaskIntoConstraints="NO" id="rcU-xH-0Jz">
+                        <rect key="frame" x="10" y="66.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="5pf-6l-bz8"/>
+                            <constraint firstAttribute="width" constant="15" id="f8b-in-wyV"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DZJ-IP-5Go" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1Au-pY-yX0"/>
+                    <constraint firstAttribute="bottom" secondItem="DZJ-IP-5Go" secondAttribute="bottom" id="3x1-e3-uWP"/>
+                    <constraint firstItem="rcU-xH-0Jz" firstAttribute="centerX" secondItem="sGB-dN-8pb" secondAttribute="centerX" id="AAJ-l5-6wh"/>
+                    <constraint firstAttribute="trailing" secondItem="DZJ-IP-5Go" secondAttribute="trailing" id="HqC-PY-1Lh"/>
+                    <constraint firstItem="DZJ-IP-5Go" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Kah-vW-9V7"/>
+                    <constraint firstAttribute="bottom" secondItem="rcU-xH-0Jz" secondAttribute="bottom" constant="15" id="mgf-al-Nc6"/>
+                    <constraint firstItem="gGS-tX-A3g" firstAttribute="centerY" secondItem="rcU-xH-0Jz" secondAttribute="centerY" id="wHD-aF-v9m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="endAddress" destination="gGS-tX-A3g" id="040-fP-RoZ"/>
+                <outlet property="grabBtn" destination="BNR-nB-3Zu" id="uaB-aa-j6N"/>
+                <outlet property="startAddress" destination="0fK-AH-h7a" id="7LL-vG-r5i"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="53.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_hongsedian" width="15" height="15"/>
+        <image name="icon_lansedian" width="15" height="15"/>
+    </resources>
+</document>
